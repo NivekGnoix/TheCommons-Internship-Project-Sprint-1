@@ -1,0 +1,432 @@
+html
+{
+  width: 100%
+  height: 100%
+  background-size:cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(#13547a, #80d0c7, #13547a);
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+}
+
+p
+{
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  width: 350px;
+  height: 50px;
+  background-color: #00C2C2;
+  color: black;
+  border-radius: 25px;
+}
+
+.header-name
+{
+  width: auto;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
+  color: white;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.navigation > ul
+{
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  background-color: ;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0%;
+}
+
+
+.outer-box
+{
+    border-radius: .75rem;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 4px black;
+    border-style: outset;
+    margin-top: 100px;
+    border-color: lightgrey;
+}
+
+ul > li
+{
+  padding: 16px;
+  margin: 0px;
+  font-size: 15px;
+
+}
+li:hover {
+  background-color: red;
+}
+
+li > a
+{
+  color:white;
+}
+.header
+{
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+.container
+{
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img
+{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 420px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px black;
+}
+
+h1
+{
+  font-weight: bold;
+  font-family: fantasy;
+  text-align: center;
+  margin: 0px;
+  justify-content: center;
+  display: flex;
+  color: lightgrey;
+  width: auto;
+}
+
+.animation-photo
+{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 475px;
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 3rem;
+  box-shadow: 8px 8px 8px black;
+}
+
+.animation-caption
+{
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  width: 475px;
+  height: 45px;
+  background-color: #00C2C2;
+  color: black;
+  border-radius: 25px;
+}
+
+.vr-image
+{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px black;
+  margin-right: 25px;
+}
+
+.information-cycle
+{
+  display: ;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px black;
+}
+
+.container-two
+{
+  flex-direction: column;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+h2
+{
+  font-family: serif;
+  font-weight: lighter;
+  text-align: center;
+  color: floralwhite;
+  font-size: 1.75rem;
+
+}
+
+.contact-container
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    height: auto;
+}
+
+.fname
+{
+  border-radius: 8px;
+  margin-bottom: 22px;
+  width: auto;
+  color: black;
+  padding: 4px;
+}
+
+.lname
+{
+  border-radius: 8px;
+  margin-bottom: 22px;
+  width: auto;
+  color: black;
+  padding: 4px;
+}
+
+.email
+{
+  border-radius: 8px;
+  margin-bottom: 22px;
+  width: auto;
+  padding: 4px;
+}
+
+.message
+{
+  margin-bottom: 22px;
+  max-width: 100%;
+  display: inline-grid;
+
+}
+
+
+.btn-submit
+{
+  margin-top: 22px;
+  padding: 0px;
+  text-align: center;
+
+}
+
+textarea
+{
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  resize: vertical;
+  height: 150px;
+  display: flex;
+}
+
+.button-center
+{
+  text-align: center;
+}
+
+.copyright
+{
+  margin-top: 100px;
+  color: darkgrey;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+button
+{
+  border-radius: 12px;
+  width: 70px;
+  height: 35px;
+  background-color: #32ea32;
+  text-shadow: 1px 1px 1px lightgrey;
+  box-shadow: 1px 1px 1px black;
+}
+
+label
+{
+  color: black;
+  font-weight: bolder;
+  display: block;
+}
+
+.vr-prototype-caption
+{
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo-caption
+{
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  width: 275px;
+  background-color: #00C2C2;
+  color: black;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-left: 35px;
+}
+
+.aboutus-statement
+{
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  width: 260px;
+  height: 186px;
+  background-color: #00C2C2;
+  color: black;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.mission-statement
+{
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.aboutus-captions
+{
+  font-family: cursive;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 6px 6px 6px black;
+  width: 260px;
+  height: 0%;
+  background-color: #00C2C2;
+  color: black;
+  border-radius: 17px;
+  margin-top: 14px;
+}
+
+.allphoto
+{
+  height: 300px;
+  width: 225px;
+  border-radius: 16px;
+  margin-top: 8px;
+  margin-left: 8px;
+}
+
+.container-three
+{
+  flex-direction: column;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container-four
+{
+  flex-direction: column;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container-five
+{
+  flex-direction: column;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container-six
+{
+  flex-direction: column;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.container-flexdirection-row
+{
+  flex-direction: row;
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
